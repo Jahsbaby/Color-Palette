@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.loginSection {
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    padding: 5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.h1 {
+    color: teal;
+    margin-bottom: 1.2rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 15px;
+    border: 1px solid teal;
+    border-radius: 2.5px;
+    font-size: 1rem;
+}
+
+.login-link {
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.login-link:hover {
+    background-color: #006d6d;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+span {
+    border: 0.5rem solid black;
+    border-radius: 50%;
+    width: 20%;
+    padding: 10rem;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid green;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+button {
+    padding: 1.5rem;
+}
+
+.Gold {
+    background-color: gold;
+    border: none;
+    font-size: 2rem;
+}
+
+.Gray {
+    color: white;
+    background-color: gray;
+    border: none;
+    font-size: 2rem;
+}
+
+.Aqua {
+    background-color: aqua;
+    border: none;
+    font-size: 2rem;
+}
+
+.Plum {
+    background-color: plum;
+    border: none;
+    font-size: 2rem;
+}
+
+.Navy {
+    color: white;
+    background-color: navy;
+    border: none;
+    font-size: 2rem;
+}
+
+.Bisque {
+    background-color: bisque;
+    border: none;
+    font-size: 2rem;
+}
+
+.Khaki {
+    background-color: khaki;
+    border: none;
+    font-size: 2rem;
+}
+
+.Tomato {
+    border: none;
+    font-size: 2rem;
+    background-color: tomato;
+    color: white;
+}
+
+.brown {
+    color: white;
+    background-color: brown;
+    border: none;
+    font-size: 2rem;
+}
+
+.yellow {
+    color: white;
+    background-color: yellow;
+    border: none;
+    font-size: 2rem;
+}
+
+.orange {
+    color: white;
+    background-color: orange;
+    border: none;
+    font-size: 2rem;
+}
+
+.crimson {
+    color: white;
+    background-color:crimson;
+    border: none;
+    font-size: 2rem;
+}
+
+.coral {
+    color: white;
+    background-color:coral;
+    border: none;
+    font-size: 2rem;
+}
+
+.fuchsia {
+    color: white;
+    background-color:fuchsia;
+    border: none;
+    font-size: 2rem;
+}
+
+.dodgerblue {
+    color: white;
+    background-color:dodgerblue;
+    border: none;
+    font-size: 2rem;
+}
+
+.lime {
+    color: white;
+    background-color:lime;
+    border: none;
+    font-size: 2rem;
+}
+
+.salmon {
+    background-color:  salmon;
+        color: white;
+    border: none;
+    font-size: 2rem;
+}
+.goldenrod{
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    font-size: 2rem;
+}
+.blueviolet {
+    background-color: blueviolet;
+        color: white;
+    border: none;
+    font-size: 2rem;
+}
+.lavender {
+    background-color: lavender;
+        color: black;
+    border: none;
+    font-size: 2rem;
+}
+.turquoise {
+    background-color: turquoise;
+        color: white;
+    border: none;
+    font-size: 2rem;
+}
+.yellowgreen {
+    background-color: yellowgreen;
+        color: white;
+    border: none;
+    font-size: 2rem;
+}
+.tan {
+    background-color: tan;
+        color: white;
+    border: none;
+    font-size: 2rem;
+}
+.cornflowerblue {
+    background-color: cornflowerblue;
+        color: white;
+    border: none;
+    font-size: 2rem;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 2rem;
+
+   }
+   
+   .maroon {
+       background-color: maroon;
+       color: white;
+       border: none;
+       font-size: 2rem;
+   }
+   
+   .indigo{
+       background-color: indigo;
+       color: white;
+       border: none;
+       font-size: 2rem;
+   }
+   
+   .silver{
+       background-color: silver;
+       color: black;
+       border: none;
+       font-size: 2rem;
+   }
+   
+   .green{
+       background-color: green;
+       color: white;
+       border: none;
+       font-size: 2rem;
+   }
+   
+   .violet{
+       background-color: violet;
+       color: black;
+       border: none;
+       font-size: 2rem;
+   }
+   
+   .chocolate{
+       background-color: chocolate;
+       color: white;
+       border: none;
+       font-size: 2rem;
+   }
+   
+   .slateblue{
+       background-color: slateblue;
+       color: white;
+       border: none;
+       font-size: 2rem;
+   }
+
+   .darkblue{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    font-size: 2rem;
+}
+
+.cyan{
+    background-color: cyan;
+    color: white;
+    border: none;
+    font-size: 2rem;
+}
+
+.teal{
+    background-color: teal;
+    color: white;
+    border: none;
+    font-size: 2rem;
+}
+
+.orchid{
+    background: orchid;
+    color: white;
+    border: none;
+    font-size: 2rem;
+}
+
+.olive{
+    background-color: olive;
+    color: white;
+    border: none;
+    font-size: 2rem;
+}
+
+.pale{
+    background-color: paleturquoise; 
+    color: black;
+    border: none;
+    font-size: 2rem;
+}
+
+.lawngreen{
+    background-color: lawngreen;
+    color: white;
+    border: none;
+    font-size: 2rem;
+}
+.peru{
+    background-color: peru;
+    color: black;
+    border: none;
+    font-size: 2rem;
+}
+
+.burlywood{
+    background-color: burlywood;
+    color: black;
+    border: none;
+    font-size: 2rem;
+}
+
+.firebrick{
+    background-color:firebrick;
+    color: white;
+    border: none;
+    font-size: 2rem;
+}
+
+.aquamarine{
+    background-color: aquamarine;
+    color: black;
+    border: none;
+    font-size: 2rem;
+}
